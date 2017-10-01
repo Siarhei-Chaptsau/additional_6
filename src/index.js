@@ -1,12 +1,11 @@
 module.exports = function zeros(expression) {
   var counter = 0;
-  var expression;
-  var expressionNumber = parseInt(expression);
+  var arr = expression.split('*');
   function factorial(n) {
     return (n >= 1) ? n * factorial(n - 1) : 1;
   }  
 
-  var result = factorial(expressionNumber);
+  var result = factorial(arr);
 
   if ( result % 10 === 0) {
     counter++;
