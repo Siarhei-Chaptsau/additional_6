@@ -12,5 +12,4 @@ module.exports = function zeros(expression) {
     counter++;
   }
   alert(counter);
- }
 }
